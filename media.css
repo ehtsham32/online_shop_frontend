@@ -1,0 +1,107 @@
+@media screen and (max-width: 1000px) {
+    .main_nav .container .navbar .img {
+        width: 20%;
+    }
+    .main_nav .container .navbar .phone {
+        width: 20%;
+    }
+    .main_nav .container .navbar .search_box {
+        width: 40%;
+    }
+    .main_nav .container .navbar .logo {
+        width: 20%;
+    }
+    .main_nav .container .navbar .drive {
+        width: 20%;
+    }
+    .main_nav .container .navbar .add_to_card {
+        width: 20%;
+    }
+    .main_nav .container .navbar {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    .main_nav_sec .container .navbar_sec  .login {
+        width: 100%;
+        text-align: center;
+        
+    }
+    .main_nav_sec .container .navbar_sec  .links ul {
+        width: 100%;
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+    }   
+    .main_nav_sec .container .navbar_sec {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    .main_nav_sec .container .navbar_sec .nav_item {
+        width: 100%;
+        text-align: center;
+    }
+    
+}
+@media  screen and (max-width: 600px) {
+    .main_silder_img .container .heading .group_img {
+        display: flex;
+        width: 50%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      
+
+    }
+
+    .main_silder_img .container .heading .group_img  img  {
+        justify-content: center;
+        text-align: center;
+        width:50%;
+    }
+    .pret_main .container .pret_heading .pret_img{
+        display: flex;
+        width: 50%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+    }
+    
+    .pret_main .container .pret_heading .pret_img img {
+        justify-content: center;
+        text-align: center;
+        width:50%;
+        
+    }
+    .carousel-inner .carousel-item {
+        flex-direction: column;
+      }
+    
+      .carousel-inner .carousel-item img {
+        width: 150px;
+        height: 150px;
+      }
+      footer .container .boxs 
+      {display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    
+      }
+    
+    
+    
+}
+/* css  */
+  
+  /* ✅ Media Query for mobile screens */
+
+  

@@ -1,0 +1,166 @@
+* {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.main_nav .container {
+    max-width: 100%;
+    width: 100%;
+    
+}
+h4{
+    line-height: normal !important;
+  }
+
+.main_nav .container .navbar {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.main_nav .container .navbar .img {
+    width: 10%;
+}
+
+.main_nav .container .navbar .img img {
+    width: 40px;
+}
+
+.main_nav .container .navbar .phone {
+    width: 5%;
+    color: white;
+    font-size: 20px;
+}
+.main_nav .container .navbar .search_box{
+    width:  10%;
+}
+.main_nav .container .navbar .search_box input[type="search"] {
+    width: 100%;
+    padding: 5px;
+}
+.main_nav .container .navbar .logo {
+    width: 10%;
+
+}
+.main_nav .container .navbar .logo img {
+    width: 100%;
+}
+.main_nav .container .navbar .drive{
+        width: 5%;
+        color: white;
+}
+.main_nav .container .navbar .add_to_card {
+    width: 10%;
+    color: white;
+}
+.main_nav_sec{
+    width: 100%;
+}
+.main_nav_sec .container{
+    max-width: 100%;
+    width: 100%;
+}
+.main_nav_sec .container .navbar_sec {
+    width: 100%;
+    background-color: rgb(245, 240, 240);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.main_nav_sec .container .navbar_sec .login {
+    width: 10%;
+    color:black;
+}
+.main_nav_sec .container .navbar_sec .login i {
+    font-size: larger;
+    margin-right: 5px;
+}
+.main_nav_sec .container .navbar_sec .links{
+   width: 60%;
+    
+}
+.main_nav_sec .container .navbar_sec .links ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
+.main_nav_sec .container .navbar_sec .links ul li {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+   
+    cursor: pointer;
+}
+.main_nav_sec .container .navbar_sec .links ul li a {
+    text-decoration: none;
+    
+}
+.main_nav_sec .container .navbar_sec .links ul li:hover {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.main_nav_sec .container .navbar_sec .links ul li:hover a {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+h1{
+    line-height: normal !important;
+}
+.main_silder_img .container .heading .group_img  img:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.pret_main .container .pret_heading .pret_img img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.main_men .container .group_men_img {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    gap: 10%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+}
+
+
+  
+  .carousel-inner .carousel-item img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    gap: 20px;
+    
+  }
+  .carousel-inner .carousel-item img:hover{
+    transform: scale(0.9);
+    
+  }
+  footer{
+    background-color: rgb(216, 178, 178);
+  }
+  footer .container .boxs 
+  {display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+ 
+ 
+
+
+
